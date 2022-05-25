@@ -7,7 +7,7 @@ Publish to GitHub Pages with:
 
 Available at:
 
-`https://doublebyte1.github.io/sprint-landing`
+`https://opengeospatial.github.io/dev-ogc-org-sprint-landing-15/`
 
 
 As git submodule:
