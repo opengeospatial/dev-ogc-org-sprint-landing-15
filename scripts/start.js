@@ -1,7 +1,7 @@
 const concurrently = require('concurrently');
 const upath = require('upath');
 
-const liveServerCommand = 'npx live-server dist --verbose --poll 500 --port=3000';
+const liveServerCommand = 'npx live-server dist --verbose --port=3000';
 
 concurrently([
     { command: 'node scripts/sb-watch.js', name: 'SB_WATCH', prefixColor: 'bgBlue.bold' },
